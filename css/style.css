@@ -41,6 +41,13 @@ a {
   padding: 73px 140px;
 }
 
+.container__footer {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 73px 140px;
+}
+
 .header__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,7 +160,7 @@ a {
 
 .arrow__down {
   position: absolute;
-  bottom: 50px;
+  bottom: 10px;
   right: 194px;
 }
 
@@ -246,5 +253,82 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.under__footer {
+  background-color: #009FE3;
+  min-height: 1020px;
+}
+
+.under__footer__logo {
+  position: absolute;
+  right: 117px;
+  top: 30px;
+}
+
+.under__footer__text {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 151.8%;
+  color: #000000;
+  width: 609px;
+  display: block;
+  margin-top: 70px;
+}
+
+.under__footer__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 150px;
+}
+
+.slider__num {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 150.3%;
+  color: #FFFFFF;
+}
+
+.slider__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 150.3%;
+  color: #000000;
+}
+
+.slider__discription {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150.3%;
+  color: #000000;
+}
+
+.slider__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testflex {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.under__footer__triangle {
+  margin-top: 120px;
+}
+
+.under__footer__triangle img {
+  padding-right: 53px;
 }
 /*# sourceMappingURL=style.css.map */

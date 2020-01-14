@@ -36,6 +36,12 @@ a{
      margin: 0 auto;
      padding: 73px 140px;
  }
+ .container__footer{
+	 position: relative;
+	 max-width: 1920px;
+     margin: 0 auto;
+     padding: 73px 140px;
+ }
   .header__top{
 	 display: flex;
 	 flex-direction: column;
@@ -117,12 +123,10 @@ a{
 	right: 0;
 
 }
-.menu{
-	//position: fixed;
-}
+
 .arrow__down{
 	position: absolute;
-	bottom: 50px;
+	bottom: 10px;
 	right: 194px;
 
 }
@@ -204,5 +208,62 @@ a{
 	display: flex;
 	justify-content: space-between;
 }
+.under__footer{
+	
+	background-color: #009FE3;
+	min-height: 1020px;
+	
+	&__logo{
+		position: absolute;
+		right: 117px;
+		top: 30px;
+	}
+	&__text{
+		font-weight: 600;
+		font-size: 72px;
+		line-height: 151.8%;
+		color: #000000;
+		width: 609px;
+		display: block;
+		margin-top: 70px;
+	}
+}
 
-
+.under__footer__slider{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 150px;
+}
+.slider__num{
+	font-weight: 800;
+	font-size: 80px;
+	line-height: 150.3%;
+	color: #FFFFFF;
+}
+.slider__name{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 150.3%;
+	color: #000000;
+}
+.slider__discription{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 150.3%;
+	color: #000000;
+}
+.slider__footer{
+	display: flex;
+	justify-content: center;
+}
+.testflex{
+	align-items: flex-end;
+}
+.under__footer__triangle{
+	margin-top: 120px;
+	img{
+	padding-right: 53px;
+	}
+}
