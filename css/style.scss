@@ -23,6 +23,7 @@ a{
 .logo{
 	padding-bottom: 160px;
 }
+
 .header{
     background-image: url("../images/header_bgnew.png") ;
     background-repeat: no-repeat;
@@ -73,6 +74,9 @@ a{
  }
  .menu__list a:hover{
     opacity: 1;
+ }
+ .menu{
+	 display: none;
  }
  .menu__btn{
 	margin-bottom: 29px;
@@ -266,4 +270,10 @@ a{
 	img{
 	padding-right: 53px;
 	}
+}
+.btnOpen{
+	display: block;
+	position: absolute;
+	top: 304px;
+	left: 140px;
 }

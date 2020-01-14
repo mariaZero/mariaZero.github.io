@@ -98,6 +98,10 @@ a {
   opacity: 1;
 }
 
+.menu {
+  display: none;
+}
+
 .menu__btn {
   margin-bottom: 29px;
   display: block;
@@ -330,5 +334,12 @@ a {
 
 .under__footer__triangle img {
   padding-right: 53px;
+}
+
+.btnOpen {
+  display: block;
+  position: absolute;
+  top: 304px;
+  left: 140px;
 }
 /*# sourceMappingURL=style.css.map */
