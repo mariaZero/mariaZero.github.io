@@ -1,0 +1,250 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Proxima Nova Regular',sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  background-color: #626161;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  padding-bottom: 160px;
+}
+
+.header {
+  background-image: url("../images/header_bgnew.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 1015px;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 73px 140px;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu__list li + li {
+  padding-top: 50px;
+  z-index: 3;
+}
+
+.menu__list a {
+  display: block;
+  padding: 3px 0;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FCF2F2;
+  width: 248px;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.menu__list a:hover {
+  opacity: 1;
+}
+
+.menu__btn {
+  margin-bottom: 29px;
+  display: block;
+  text-align: left;
+}
+
+.header__center {
+  position: absolute;
+  left: 555px;
+  top: 372px;
+}
+
+.logo__text {
+  display: block;
+  font-weight: 600;
+  font-size: 120px;
+  line-height: 146px;
+  color: #1D1D1B;
+  margin-bottom: 50px;
+}
+
+.subtext {
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.line-animation {
+  stroke-dashoffset: 1400;
+  stroke-dasharray: 1400;
+  -webkit-animation: animdash 5s infinite 6s;
+          animation: animdash 5s infinite 6s;
+}
+
+@-webkit-keyframes animdash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes animdash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.header__map {
+  position: absolute;
+  left: 271px;
+  top: 357px;
+  z-index: 1;
+}
+
+.header__picturs {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.arrow__down {
+  position: absolute;
+  bottom: 50px;
+  right: 194px;
+}
+
+.arrow__downTwo {
+  position: absolute;
+  bottom: -1070px;
+  right: 194px;
+}
+
+.labe__aboutUs {
+  background-color: #626161;
+  min-height: 1080px;
+}
+
+.about__us {
+  display: block;
+  width: 526px;
+  position: relative;
+  left: 557px;
+  top: 3px;
+  background: #E0D6D6;
+  border-radius: 9px;
+  padding: 0px 170px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 66px;
+}
+
+.slider {
+  display: block;
+  text-align: center;
+  margin-top: 91px;
+}
+
+.slider__imgz {
+  position: relative;
+  bottom: -120px;
+  width: 445px;
+  height: 393px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.slider__img {
+  width: 527px;
+  height: 468px;
+}
+
+.slider__name {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150.3%;
+}
+
+.slider__namez {
+  position: relative;
+  bottom: -50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150.3%;
+}
+
+.slider__discription1 {
+  text-align: left;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.slider__discription2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  position: relative;
+  bottom: -120px;
+}
+
+.slider__discription3 {
+  text-align: right;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.container__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
